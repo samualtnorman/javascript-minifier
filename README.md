@@ -3,7 +3,12 @@ Wrapper for https://javascript-minifier.com/.
 
 Install with `npm i javascript-minifier`.
 
-Example:
+## Notice
+I do not recommend using this as it is a wrapper which means it cannot be used offline.
+
+I instead recommend using [terser](https://github.com/terser/terser) which can do the same thing and more.
+
+## Example:
 ```js
 import { minify } from "javascript-minifier";
 import { readFileSync } from "fs";
